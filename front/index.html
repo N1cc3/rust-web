@@ -4,13 +4,25 @@
 	<title>Rust Web Front</title>
 	<meta charset="utf-8" />
 	<style>
-      body {
-        margin: 0;
-      }
-    </style>
+		body {
+			margin: 0;
+		}
+		#game {
+			width: 100vw;
+			height: 100vh;
+			position: absolute;
+		}
+		#root {
+			width: 100vw;
+			height: 100vh;
+			position: absolute;
+		}
+	</style>
 	<script type="module" src="/src/index.ts"></script>
+	<script type="module" src="/src/main.tsx"></script>
 </head>
 <body>
 <div id="game"></div>
+<div id="root"></div>
 </body>
 </html>
