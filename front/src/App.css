@@ -1,11 +1,7 @@
-#root {
-  margin: 0 auto;
+.app {
+	margin-top: 10em;
   padding: 2rem;
   text-align: center;
-}
-
-.App {
-	margin-top: 10em;
 }
 
 .logo {
